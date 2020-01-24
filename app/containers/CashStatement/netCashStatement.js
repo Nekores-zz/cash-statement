@@ -28,7 +28,7 @@ export default function NetCashStatement() {
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell_last}>
-          <TableInput dollor="+/-$" />
+          <TableInput style={{ paddingLeft: '22px' }} dollor="+/-$" />
         </TableRow>
       </Widget>
       <Widget className={classes.footer}>
@@ -39,7 +39,7 @@ export default function NetCashStatement() {
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell_last}>
-          <TableInput dollor="= $" />
+          <TableInput style={{ paddingLeft: '14px' }} dollor="= $" />
         </TableRow>
       </Widget>
     </Widget>

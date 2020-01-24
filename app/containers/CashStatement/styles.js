@@ -44,7 +44,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       paddingTop: '9px',
-      width: '123px',
+      flexBasis: '35%',
       height: '50px',
     },
   },
@@ -59,6 +59,9 @@ const useStyles = makeStyles(theme => ({
     '@media (max-width: 768px)': {
       paddingLeft: '10px',
     },
+    '@media (max-width: 576px)': {
+      flexBasis: '65%',
+    },
   },
   beginning_date: {
     margin: 0,
@@ -68,6 +71,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       fontSize: '12px',
+      paddingLeft: '0',
     },
   },
   end_date: {
@@ -116,6 +120,8 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       fontSize: '9px',
+      flexBasis: '35%',
+      paddingLeft: '5px',
       height: '44px',
     },
   },
@@ -134,7 +140,9 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       fontSize: '9px',
+      flexBasis: '35%',
       height: '44px',
+      paddingLeft: '5px',
     },
   },
   body_title: {
@@ -152,7 +160,9 @@ const useStyles = makeStyles(theme => ({
       fontSize: '1rem',
     },
     '@media (max-width: 576px)': {
+      flexBasis: '35%',
       height: '33px',
+      paddingLeft: '5px',
       fontSize: '10px',
     },
   },
@@ -170,6 +180,7 @@ const useStyles = makeStyles(theme => ({
       height: '70px',
     },
     '@media (max-width: 576px)': {
+      flexBasis: '16.25%',
       height: '44px',
     },
   },
@@ -186,7 +197,7 @@ const useStyles = makeStyles(theme => ({
       height: '50px',
     },
     '@media (max-width: 576px)': {
-      width: '54.3px',
+      flexBasis: '16.25%',
       height: '33px',
     },
   },
@@ -203,6 +214,7 @@ const useStyles = makeStyles(theme => ({
       width: '189px',
     },
     '@media (max-width: 576px)': {
+      flexBasis: '16.25%',
       height: '44px',
     },
   },
@@ -220,6 +232,7 @@ const useStyles = makeStyles(theme => ({
       width: '189px',
     },
     '@media (max-width: 576px)': {
+      flexBasis: '16.25%',
       height: '44px',
     },
   },
@@ -233,6 +246,7 @@ const useStyles = makeStyles(theme => ({
       height: '50px',
     },
     '@media (max-width: 576px)': {
+      flexBasis: '16.25%',
       height: '33px',
     },
   },
@@ -251,7 +265,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       height: '44px',
-      width: '54.6px',
+      flexBasis: '16.25%',
     },
   },
   bdrLeft_none: {

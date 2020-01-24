@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       // display: 'flex',
-      paddingRight: '6px',
+      paddingRight: 0,
       height: '44px',
     },
   },
@@ -72,6 +72,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function TableInput(props) {
+  console.log(props, 'test');
   const classes = useStyles();
   return (
     <div className={`${classes.input_box} ${props.inputClass}`}>
@@ -80,6 +81,7 @@ function TableInput(props) {
         className={`${props.className} ${classes.input_style}`}
         value={props.value}
         name={props.name}
+        style={props.style}
         onChange={props.onChange}
         type={props.type}
       />
