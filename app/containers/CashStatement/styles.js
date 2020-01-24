@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     borderBottom: '1px solid #000',
+    '@media (max-width: 576px)': {
+      height: '50px',
+    },
   },
   title: {
     textAlign: 'center',
@@ -31,20 +34,50 @@ const useStyles = makeStyles(theme => ({
     borderRight: '1px solid #868686',
     paddingLeft: '10px',
     paddingTop: '20px',
-    // width: '33%',
+    '@media (max-width: 1024px)': {
+      width: '345px',
+      height: '85px',
+    },
+    '@media (max-width: 768px)': {
+      width: '257px',
+      height: '85px',
+    },
+    '@media (max-width: 576px)': {
+      paddingTop: '9px',
+      width: '123px',
+      height: '50px',
+    },
   },
   date_box_two: {
     display: 'flex',
-    alignItems: 'flex-end',
+    alignItems: 'center',
     paddingLeft: '500px',
+    '@media (max-width: 1024px)': {
+      paddingLeft: '10px',
+      paddingLeft: '10px',
+    },
+    '@media (max-width: 768px)': {
+      paddingLeft: '10px',
+    },
   },
   beginning_date: {
-    // paddingRight: '12rem',
     margin: 0,
     marginBottom: '-1rem',
+    '@media (max-width: 768px)': {
+      fontSize: '1.2rem',
+    },
+    '@media (max-width: 576px)': {
+      fontSize: '12px',
+    },
   },
   end_date: {
     margin: 0,
+    '@media (max-width: 768px)': {
+      fontSize: '1.2rem',
+    },
+    '@media (max-width: 576px)': {
+      fontSize: '12px',
+    },
   },
   end_date_input: {
     marginleft: '6px',
@@ -63,7 +96,6 @@ const useStyles = makeStyles(theme => ({
   footer: {
     display: 'flex',
     borderBottom: '1px solid #000',
-    // background: '#fff',
   },
   body: {
     display: 'flex',
@@ -79,6 +111,13 @@ const useStyles = makeStyles(theme => ({
     borderRight: '1px solid #868686',
     fontSize: '1.7rem',
     fontWeight: 500,
+    '@media (max-width: 768px)': {
+      fontSize: '1.1rem',
+    },
+    '@media (max-width: 576px)': {
+      fontSize: '9px',
+      height: '44px',
+    },
   },
   footer_title: {
     paddingLeft: '10px',
@@ -89,6 +128,14 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     borderRight: '1px solid #868686',
     fontSize: '1.7rem',
+    '@media (max-width: 768px)': {
+      width: '402px',
+      fontSize: '1.1rem',
+    },
+    '@media (max-width: 576px)': {
+      fontSize: '9px',
+      height: '44px',
+    },
   },
   body_title: {
     paddingLeft: '10px',
@@ -100,6 +147,14 @@ const useStyles = makeStyles(theme => ({
     borderRight: '1px solid #868686',
     fontSize: '1.5rem',
     fontWeight: 400,
+    '@media (max-width: 768px)': {
+      height: '50px',
+      fontSize: '1rem',
+    },
+    '@media (max-width: 576px)': {
+      height: '33px',
+      fontSize: '10px',
+    },
   },
   header_cell: {
     width: '30px',
@@ -107,14 +162,33 @@ const useStyles = makeStyles(theme => ({
     borderLeft: '1px solid #868686',
     width: '189px',
     height: '100px',
+    '@media (max-width: 1024px)': {
+      width: '188px',
+    },
+    '@media (max-width: 768px)': {
+      width: '189px',
+      height: '70px',
+    },
+    '@media (max-width: 576px)': {
+      height: '44px',
+    },
   },
   body_cell: {
-    width: '30px',
-    height: '20px',
     borderLeft: '1px solid #868686',
     width: '189px',
     height: '72px',
     background: '#fff',
+    '@media (max-width: 1024px)': {
+      width: '188px',
+    },
+    '@media (max-width: 768px)': {
+      width: '189px',
+      height: '50px',
+    },
+    '@media (max-width: 576px)': {
+      width: '54.3px',
+      height: '33px',
+    },
   },
   footer_cell: {
     width: '30px',
@@ -122,32 +196,63 @@ const useStyles = makeStyles(theme => ({
     borderLeft: '1px solid #868686',
     width: '189px',
     height: '72px',
+    '@media (max-width: 1024px)': {
+      width: '188px',
+    },
+    '@media (max-width: 768px)': {
+      width: '189px',
+    },
+    '@media (max-width: 576px)': {
+      height: '44px',
+    },
   },
   header_cell_last: {
-    height: '20px',
     borderLeft: '1px solid #868686',
     borderTop: 0,
     borderRight: 0,
     width: '189px',
     height: '100px',
+    // '@media (max-width: 1024px)': {
+    //   width: '189px',
+    // },
+    '@media (max-width: 768px)': {
+      height: '70px',
+      width: '189px',
+    },
+    '@media (max-width: 576px)': {
+      height: '44px',
+    },
   },
   body_cell_last: {
-    height: '20px',
     borderLeft: '1px solid #868686',
     borderTop: 0,
     borderRight: 0,
     width: '189px',
     height: '72px',
+    '@media (max-width: 768px)': {
+      height: '50px',
+    },
+    '@media (max-width: 576px)': {
+      height: '33px',
+    },
   },
   footer_cell_last: {
-    height: '20px',
     borderLeft: '1px solid #868686',
     borderTop: 0,
     borderRight: 0,
-    // width: '189px',
     width: '309px',
     height: '72px',
     background: '#fff',
+    '@media (max-width: 1024px)': {
+      width: '189px',
+    },
+    '@media (max-width: 768px)': {
+      width: '189px',
+    },
+    '@media (max-width: 576px)': {
+      height: '44px',
+      width: '54.6px',
+    },
   },
   bdrLeft_none: {
     borderLeft: 'none',

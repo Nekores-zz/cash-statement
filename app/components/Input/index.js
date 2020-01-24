@@ -13,6 +13,10 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'safe',
     paddingRight: '10px',
+    '@media (max-width: 768px)': {
+      // paddingRight: '6px',
+      height: '70px',
+    },
     '@media (max-width: 576px)': {
       paddingRight: '6px',
     },
@@ -22,16 +26,18 @@ const useStyles = makeStyles(theme => ({
     borderBottom: '1px solid #000 ',
     background: 'transparent',
     fontStyle: '22px',
-    // paddingLeft: '22px',
-    // paddingBottom: '15px',
     '&:focus': {
       outline: 'none',
     },
+    '@media (max-width: 768px)': {
+      width: '100px',
+    },
     '@media (max-width: 576px)': {
-      width: '95px',
+      width: '52px',
       paddingBottom: '2px',
-      paddingLeft: '14px',
-      fontSize: '12px',
+      paddingLeft: '8px',
+      paddingTop: '4px',
+      fontSize: '10px',
     },
   },
   dollor: {
@@ -44,6 +50,7 @@ const useStyles = makeStyles(theme => ({
       fontSize: '12px',
       left: 11,
       paddingBottom: '0',
+      margin: 0,
     },
   },
 }));

@@ -13,8 +13,16 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'safe',
     paddingRight: '10px',
+    '@media (max-width: 1024px)': {
+      display: 'block',
+    },
+    '@media (max-width: 768px)': {
+      height: '70px',
+    },
     '@media (max-width: 576px)': {
+      // display: 'flex',
       paddingRight: '6px',
+      height: '44px',
     },
   },
   input_style: {
@@ -27,11 +35,20 @@ const useStyles = makeStyles(theme => ({
     '&:focus': {
       outline: 'none',
     },
+    '@media (max-width: 1024px)': {
+      width: '144px',
+    },
+    '@media (max-width: 768px)': {
+      width: '100px',
+    },
     '@media (max-width: 576px)': {
-      width: '95px',
+      width: '51px',
       paddingBottom: '2px',
-      paddingLeft: '14px',
+      paddingLeft: '5px',
       fontSize: '12px',
+      position: 'relative',
+      bottom: '10px',
+      left: '5px',
     },
   },
   dollor: {
@@ -40,10 +57,16 @@ const useStyles = makeStyles(theme => ({
     fontSize: '24px',
     color: '#000',
     paddingBottom: '18px',
+    '@media (max-width: 768px)': {
+      fontSize: '20px',
+    },
     '@media (max-width: 576px)': {
+      width: '52px',
       fontSize: '12px',
-      left: 11,
+      left: '2px',
+      top: '12px',
       paddingBottom: '0',
+      margin: 0,
     },
   },
 }));
