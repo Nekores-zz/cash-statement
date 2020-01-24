@@ -10,7 +10,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-// import IncomeStatement from 'containers/IncomeStatement';
 import CashStatement from 'containers/CashStatement';
 
 import GlobalStyle from '../../global-styles';
