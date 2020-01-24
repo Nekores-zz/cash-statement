@@ -1,0 +1,157 @@
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles(theme => ({
+  table_container: {
+    marginBottom: '2rem',
+    border: '1px solid #000',
+    borderBottom: 0,
+    background: '#caf6cc',
+    padding: 0,
+  },
+  cash_statement_table: {
+    display: 'flex',
+    alignItems: 'center',
+    borderBottom: '1px solid #000',
+  },
+  title: {
+    textAlign: 'center',
+    fontFamily: 'Raleway, sans-serif',
+    fontSize: '2rem',
+    '@media (max-width: 576px)': {
+      fontSize: '1.3rem',
+    },
+  },
+  date_box_one: {
+    display: 'flex',
+    width: '402px',
+    height: '100px',
+    flexDirection: 'column',
+    justifyContent: 'start',
+    alignItems: 'flex-start',
+    borderRight: '1px solid #868686',
+    paddingLeft: '10px',
+    paddingTop: '20px',
+    // width: '33%',
+  },
+  date_box_two: {
+    display: 'flex',
+    alignItems: 'flex-end',
+    paddingLeft: '500px',
+  },
+  beginning_date: {
+    // paddingRight: '12rem',
+    margin: 0,
+    marginBottom: '-1rem',
+  },
+  end_date: {
+    margin: 0,
+  },
+  end_date_input: {
+    marginleft: '6px',
+    paddingLeft: '20px',
+  },
+  full_width: {
+    width: '100%',
+  },
+  divider: {
+    border: '.5px solid #000',
+  },
+  header: {
+    display: 'flex',
+    borderBottom: '.5px solid #868686',
+  },
+  footer: {
+    display: 'flex',
+    borderBottom: '1px solid #000',
+    // background: '#fff',
+  },
+  body: {
+    display: 'flex',
+    borderBottom: '1px solid #868686',
+    background: '#caf6cc',
+  },
+  header_title: {
+    paddingLeft: '10px',
+    width: '402px',
+    margin: 0,
+    display: 'flex',
+    alignItems: 'center',
+    borderRight: '1px solid #868686',
+    fontSize: '1.7rem',
+    fontWeight: 500,
+  },
+  footer_title: {
+    paddingLeft: '10px',
+    width: '402px',
+    fontWeight: 500,
+    margin: 0,
+    display: 'flex',
+    alignItems: 'center',
+    borderRight: '1px solid #868686',
+    fontSize: '1.7rem',
+  },
+  body_title: {
+    paddingLeft: '10px',
+    width: '402px',
+    height: '72px',
+    margin: 0,
+    display: 'flex',
+    alignItems: 'center',
+    borderRight: '1px solid #868686',
+    fontSize: '1.5rem',
+    fontWeight: 400,
+  },
+  header_cell: {
+    width: '30px',
+    height: '20px',
+    borderLeft: '1px solid #868686',
+    width: '189px',
+    height: '100px',
+  },
+  body_cell: {
+    width: '30px',
+    height: '20px',
+    borderLeft: '1px solid #868686',
+    width: '189px',
+    height: '72px',
+    background: '#fff',
+  },
+  footer_cell: {
+    width: '30px',
+    height: '20px',
+    borderLeft: '1px solid #868686',
+    width: '189px',
+    height: '72px',
+  },
+  header_cell_last: {
+    height: '20px',
+    borderLeft: '1px solid #868686',
+    borderTop: 0,
+    borderRight: 0,
+    width: '189px',
+    height: '100px',
+  },
+  body_cell_last: {
+    height: '20px',
+    borderLeft: '1px solid #868686',
+    borderTop: 0,
+    borderRight: 0,
+    width: '189px',
+    height: '72px',
+  },
+  footer_cell_last: {
+    height: '20px',
+    borderLeft: '1px solid #868686',
+    borderTop: 0,
+    borderRight: 0,
+    // width: '189px',
+    width: '309px',
+    height: '72px',
+    background: '#fff',
+  },
+  bdrLeft_none: {
+    borderLeft: 'none',
+  },
+}));
+
+export default useStyles;
