@@ -66,6 +66,7 @@ const useStyles = makeStyles(theme => ({
   beginning_date: {
     margin: 0,
     marginBottom: '-1rem',
+    fontSize: '16px',
     '@media (max-width: 768px)': {
       fontSize: '1.2rem',
     },
@@ -75,6 +76,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   end_date: {
+    fontSize: '16px',
     margin: 0,
     '@media (max-width: 768px)': {
       fontSize: '1.2rem',
@@ -113,7 +115,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     borderRight: '1px solid #868686',
-    fontSize: '1.7rem',
+    fontSize: '14px',
     fontWeight: 500,
     '@media (max-width: 768px)': {
       fontSize: '1.1rem',
@@ -133,7 +135,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     borderRight: '1px solid #868686',
-    fontSize: '1.7rem',
+    fontSize: '14px',
     '@media (max-width: 768px)': {
       width: '402px',
       fontSize: '1.1rem',
@@ -153,7 +155,7 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     borderRight: '1px solid #868686',
-    fontSize: '1.5rem',
+    fontSize: '14px',
     fontWeight: 400,
     '@media (max-width: 768px)': {
       height: '50px',
@@ -171,7 +173,7 @@ const useStyles = makeStyles(theme => ({
     height: '20px',
     borderLeft: '1px solid #868686',
     width: '189px',
-    height: '100px',
+    height: '80px',
     '@media (max-width: 1024px)': {
       width: '188px',
     },
@@ -223,7 +225,7 @@ const useStyles = makeStyles(theme => ({
     borderTop: 0,
     borderRight: 0,
     width: '189px',
-    height: '100px',
+    height: '80px',
     // '@media (max-width: 1024px)': {
     //   width: '189px',
     // },
