@@ -13,6 +13,8 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     justifyContent: 'safe',
     paddingRight: '10px',
+    height: '94px',
+
     '@media (max-width: 1024px)': {
       display: 'block',
     },
@@ -31,7 +33,9 @@ const useStyles = makeStyles(theme => ({
     background: 'transparent',
     paddingLeft: '22px',
     paddingBottom: '15px',
-    width: '187px',
+    width: '154px',
+    fontSize: '14px',
+
     '&:focus': {
       outline: 'none',
     },
