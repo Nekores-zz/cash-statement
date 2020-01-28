@@ -32,13 +32,15 @@ export function CashStatement() {
       <Container className={classes.table_container}>
         <Widget className={classes.cash_statement_table}>
           <Widget className={classes.date_box_one}>
-            <H2 className={classes.beginning_date}>Beginning date:</H2>
-            <Input />
+            <H2 className={classes.beginning_date}>
+              Beginning date: &nbsp; &nbsp;
+            </H2>
+            <Input style={{ borderBottom: '2px dotted' }} />
           </Widget>
           <Widget className={classes.date_box_two}>
             <H2 className={classes.end_date}>Ending date:</H2>
             <Widget className={classes.end_date_input}>
-              <Input />
+              <Input style={{ borderBottom: '2px dotted' }} />
             </Widget>
           </Widget>
         </Widget>

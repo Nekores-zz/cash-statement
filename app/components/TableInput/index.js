@@ -22,14 +22,12 @@ const useStyles = makeStyles(theme => ({
       height: '70px',
     },
     '@media (max-width: 576px)': {
-      // display: 'flex',
       paddingRight: 0,
-      height: '44px',
+      height: '30px',
     },
   },
   input_style: {
     border: 'none',
-    // borderBottom: '1px solid #000 ',
     background: 'transparent',
     paddingLeft: '22px',
     paddingBottom: '15px',
@@ -76,7 +74,6 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function TableInput(props) {
-  console.log(props, 'test');
   const classes = useStyles();
   return (
     <div className={`${classes.input_box} ${props.inputClass}`}>

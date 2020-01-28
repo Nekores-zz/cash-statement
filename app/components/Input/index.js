@@ -20,6 +20,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       paddingRight: '6px',
+      height: '30px',
     },
   },
   input_style: {
@@ -65,6 +66,7 @@ function Input(props) {
       <input
         className={`${props.className} ${classes.input_style}`}
         value={props.value}
+        style={props.style}
         name={props.name}
         onChange={props.onChange}
         type={props.type}

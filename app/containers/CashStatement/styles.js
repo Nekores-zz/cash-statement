@@ -28,12 +28,10 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     width: '402px',
     height: '100px',
-    flexDirection: 'column',
     justifyContent: 'start',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     borderRight: '1px solid #868686',
     paddingLeft: '10px',
-    paddingTop: '20px',
     '@media (max-width: 1024px)': {
       width: '345px',
       height: '85px',
@@ -43,6 +41,8 @@ const useStyles = makeStyles(theme => ({
       height: '85px',
     },
     '@media (max-width: 576px)': {
+      flexDirection: 'row',
+      alignItems: 'start',
       paddingTop: '9px',
       flexBasis: '35%',
       height: '50px',
@@ -65,24 +65,17 @@ const useStyles = makeStyles(theme => ({
   },
   beginning_date: {
     margin: 0,
-    marginBottom: '-1rem',
     fontSize: '16px',
-    '@media (max-width: 768px)': {
-      fontSize: '1.2rem',
-    },
     '@media (max-width: 576px)': {
-      fontSize: '12px',
+      fontSize: '10px',
       paddingLeft: '0',
     },
   },
   end_date: {
     fontSize: '16px',
     margin: 0,
-    '@media (max-width: 768px)': {
-      fontSize: '1.2rem',
-    },
     '@media (max-width: 576px)': {
-      fontSize: '12px',
+      fontSize: '10px',
     },
   },
   end_date_input: {
