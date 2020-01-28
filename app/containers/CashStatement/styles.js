@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
     paddingLeft: '10px',
     '@media (max-width: 1024px)': {
       width: '345px',
-      height: '85px',
+      height: '95px',
     },
     '@media (max-width: 768px)': {
       width: '257px',
@@ -117,7 +117,7 @@ const useStyles = makeStyles(theme => ({
       fontSize: '9px',
       flexBasis: '35%',
       paddingLeft: '5px',
-      height: '44px',
+      height: '33px',
     },
   },
   footer_title: {
@@ -132,11 +132,12 @@ const useStyles = makeStyles(theme => ({
     '@media (max-width: 768px)': {
       width: '402px',
       fontSize: '1.1rem',
+      height: '50px',
     },
     '@media (max-width: 576px)': {
       fontSize: '9px',
       flexBasis: '35%',
-      height: '44px',
+      height: '33px',
       paddingLeft: '5px',
     },
   },
@@ -176,7 +177,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       flexBasis: '16.25%',
-      height: '44px',
+      height: '33px',
     },
   },
   body_cell: {
@@ -206,11 +207,12 @@ const useStyles = makeStyles(theme => ({
       width: '188px',
     },
     '@media (max-width: 768px)': {
+      height: '50px',
       width: '189px',
     },
     '@media (max-width: 576px)': {
       flexBasis: '16.25%',
-      height: '44px',
+      height: '33px',
     },
   },
   header_cell_last: {
@@ -228,7 +230,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 576px)': {
       flexBasis: '16.25%',
-      height: '44px',
+      height: '33px',
     },
   },
   body_cell_last: {
@@ -256,10 +258,11 @@ const useStyles = makeStyles(theme => ({
       width: '189px',
     },
     '@media (max-width: 768px)': {
+      height: '50px',
       width: '189px',
     },
     '@media (max-width: 576px)': {
-      height: '44px',
+      height: '33px',
       flexBasis: '16.25%',
     },
   },

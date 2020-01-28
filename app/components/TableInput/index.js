@@ -16,12 +16,19 @@ const useStyles = makeStyles(theme => ({
     height: '94px',
 
     '@media (max-width: 1024px)': {
-      display: 'block',
+      paddingRight: 0,
+      paddingTop: '22px',
+      height: '72px',
     },
     '@media (max-width: 768px)': {
+      paddingTop: 0,
       height: '70px',
     },
     '@media (max-width: 576px)': {
+      position: 'relative',
+      bottom: '4px',
+      paddingTop: 0,
+      display: 'block',
       paddingRight: 0,
       height: '30px',
     },
@@ -42,6 +49,7 @@ const useStyles = makeStyles(theme => ({
     },
     '@media (max-width: 768px)': {
       width: '100px',
+      paddingLeft: '10px',
     },
     '@media (max-width: 576px)': {
       width: '51px',
@@ -59,7 +67,11 @@ const useStyles = makeStyles(theme => ({
     fontSize: '24px',
     color: '#000',
     paddingBottom: '18px',
+    '@media (max-width: 1024px)': {
+      margin: 0,
+    },
     '@media (max-width: 768px)': {
+      left: '7px',
       fontSize: '20px',
     },
     '@media (max-width: 576px)': {

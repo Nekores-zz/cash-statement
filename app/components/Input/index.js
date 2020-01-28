@@ -49,6 +49,9 @@ const useStyles = makeStyles(theme => ({
     fontSize: '20px',
     color: '#000',
     paddingBottom: '18px',
+    '@media (max-width: 1024px)': {
+      margin: 0,
+    },
     '@media (max-width: 576px)': {
       fontSize: '12px',
       left: 11,
