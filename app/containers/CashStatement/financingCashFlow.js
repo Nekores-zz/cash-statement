@@ -10,7 +10,7 @@ export default function FinancingCashFlow() {
   return (
     <Widget>
       <Widget className={classes.header}>
-        <h3 className={classes.header_title}>FINANCING CASH FLOW</h3>
+        <h3 className={classes.header_title}>Financing Cash Flow</h3>
         <TableRow
           className={`${classes.header_cell} ${classes.bdrLeft_none}`}
         />

@@ -66,6 +66,7 @@ const useStyles = makeStyles(theme => ({
   beginning_date: {
     margin: 0,
     fontSize: '16px',
+    textTransform: 'capitalize',
     '@media (max-width: 576px)': {
       fontSize: '10px',
       paddingLeft: '0',
@@ -74,6 +75,7 @@ const useStyles = makeStyles(theme => ({
   end_date: {
     fontSize: '16px',
     margin: 0,
+    textTransform: 'capitalize',
     '@media (max-width: 576px)': {
       fontSize: '10px',
     },
@@ -110,6 +112,7 @@ const useStyles = makeStyles(theme => ({
     borderRight: '1px solid #868686',
     fontSize: '14px',
     fontWeight: 500,
+    textTransform: 'capitalize',
     '@media (max-width: 768px)': {
       fontSize: '1.1rem',
     },

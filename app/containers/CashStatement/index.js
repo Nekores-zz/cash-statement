@@ -35,12 +35,12 @@ export function CashStatement() {
             <H2 className={classes.beginning_date}>
               Beginning date: &nbsp; &nbsp;
             </H2>
-            <Input style={{ borderBottom: '2px dotted' }} />
+            <Input />
           </Widget>
           <Widget className={classes.date_box_two}>
             <H2 className={classes.end_date}>Ending date:</H2>
             <Widget className={classes.end_date_input}>
-              <Input style={{ borderBottom: '2px dotted' }} />
+              <Input />
             </Widget>
           </Widget>
         </Widget>
