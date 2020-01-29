@@ -39,7 +39,7 @@ export default function NetCashStatement() {
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell_last}>
-          <TableInput style={{ paddingLeft: '14px' }} dollor="= $" />
+          <TableInput style={{ paddingLeft: '18px' }} dollor="= $" />
         </TableRow>
       </Widget>
     </Widget>
