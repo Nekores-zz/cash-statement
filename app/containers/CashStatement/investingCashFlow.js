@@ -23,26 +23,26 @@ export default function InvestingCashFlow() {
           Fixed Asset Investment/ <br /> Divestment
         </h4>
         <TableRow className={`${classes.body_cell} ${classes.bdrLeft_none}`}>
-          <TableInput dollor="$" />
+          <TableInput id="icf1" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="icf2" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="icf3" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell_last} />
       </Widget>
       <Widget className={classes.body}>
         <h4 className={classes.body_title}>Other Investments</h4>
         <TableRow className={`${classes.body_cell} ${classes.bdrLeft_none}`}>
-          <TableInput dollor="$" />
+          <TableInput id="icf4" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="icf5" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="icf6" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell_last} />
       </Widget>
@@ -54,7 +54,7 @@ export default function InvestingCashFlow() {
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell_last}>
-          <TableInput dollor="$" />
+          <TableInput id="icf7" dollor="$" />
         </TableRow>
       </Widget>
     </Widget>

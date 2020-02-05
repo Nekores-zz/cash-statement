@@ -21,52 +21,52 @@ export default function OperatingCashFlow() {
       <Widget className={classes.body}>
         <h4 className={classes.body_title}>Collections</h4>
         <TableRow className={`${classes.body_cell} ${classes.bdrLeft_none}`}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf1" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf2" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf3" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell_last} />
       </Widget>
       <Widget className={classes.body}>
         <h4 className={classes.body_title}>Inventory Paid</h4>
         <TableRow className={`${classes.body_cell} ${classes.bdrLeft_none}`}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf4" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf5" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf6" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell_last} />
       </Widget>
       <Widget className={classes.body}>
         <h4 className={classes.body_title}>SG&A Paid</h4>
         <TableRow className={`${classes.body_cell} ${classes.bdrLeft_none}`}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf7" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf8" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf9" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell_last} />
       </Widget>
       <Widget className={classes.body}>
         <h4 className={classes.body_title}>Interest Paid</h4>
         <TableRow className={`${classes.body_cell} ${classes.bdrLeft_none}`}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf10" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf11" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf12" dollor="$" />
         </TableRow>
         <TableRow className={classes.body_cell_last} />
       </Widget>
@@ -78,7 +78,7 @@ export default function OperatingCashFlow() {
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell} />
         <TableRow className={classes.footer_cell_last}>
-          <TableInput dollor="$" />
+          <TableInput id="ocf13" dollor="$" />
         </TableRow>
       </Widget>
     </Widget>
