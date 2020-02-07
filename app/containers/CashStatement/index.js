@@ -8,6 +8,9 @@ import React from 'react';
 import Container from '@material-ui/core/Container';
 // import Divider from '@material-ui/core/Divider';
 // import RevenueTable from './revenueTable';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { compose } from 'redux';
 import H2 from '../../components/H2';
 import Widget from '../../components/Widget';
 // import DatePicker from '../../components/DatePicker';
@@ -18,10 +21,6 @@ import InvestingCashFlow from './investingCashFlow';
 import FinancingCashFlow from './financingCashFlow';
 import NetCashStatement from './netCashStatement';
 import useStyles from './styles';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-
-import { compose } from 'redux';
 
 export function CashStatement() {
   const classes = useStyles();
@@ -53,10 +52,10 @@ export function CashStatement() {
       {/* Bottom text */}
       <Container>
         <p>
-          <b>Note:</b> The cash statement above uses the ‘Direct Cash Flow’ method for
-          calculating operating cash flow. Most cash statements created by
-          financial professionals use the ‘Indirect Cash Flow’ method for
-          calculating operating cash flow. These two methods give the same
+          <b>Note:</b> The cash statement above uses the ‘Direct Cash Flow’
+          method for calculating operating cash flow. Most cash statements
+          created by financial professionals use the ‘Indirect Cash Flow’ method
+          for calculating operating cash flow. These two methods give the same
           outcome, but arrive at it in different ways. The direct method simply
           keeps track of cash-in and cash-out, similar to a checkbook. You can
           tell if you are looking at the indirect method if the operating cash
@@ -67,8 +66,8 @@ export function CashStatement() {
           Investing and financing cash flows are calculated the same using
           either method.
         </p>
-        <br/>
-        <br/>
+        <br />
+        <br />
       </Container>
     </Widget>
   );
