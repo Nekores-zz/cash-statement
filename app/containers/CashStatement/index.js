@@ -49,6 +49,27 @@ export function CashStatement() {
         <FinancingCashFlow />
         <NetCashStatement />
       </Container>
+
+      {/* Bottom text */}
+      <Container>
+        <p>
+          <b>Note:</b> The cash statement above uses the ‘Direct Cash Flow’ method for
+          calculating operating cash flow. Most cash statements created by
+          financial professionals use the ‘Indirect Cash Flow’ method for
+          calculating operating cash flow. These two methods give the same
+          outcome, but arrive at it in different ways. The direct method simply
+          keeps track of cash-in and cash-out, similar to a checkbook. You can
+          tell if you are looking at the indirect method if the operating cash
+          flow section begins with ‘net income’ and then adds back non-cash
+          expenses (e.g. depreciation), changes in non-cash current assets
+          (e.g., receivables, payables, or inventory), and adjusts for gains and
+          losses on the sale of assets during the period (among others).
+          Investing and financing cash flows are calculated the same using
+          either method.
+        </p>
+        <br/>
+        <br/>
+      </Container>
     </Widget>
   );
 }
